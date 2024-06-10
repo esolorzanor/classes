@@ -1,0 +1,5 @@
+/* Selecciona todos los enlaces con el atributo href que contengan "example.com" */
+a[href*="example.com"] {
+    color: pink;
+  }
+  

@@ -1,0 +1,12 @@
+/* Selecciona todos los elementos con la clase "titulo" */
+.titulo {
+    color: orange;
+    text-align: center;
+  }
+  
+  /* Selecciona todos los elementos con la clase "parrafo" */
+  .parrafo {
+    color: gray;
+    margin: 10px 0;
+  }
+  
