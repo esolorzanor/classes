@@ -1,4 +1,10 @@
+* {
+    background-color: green;
+}
+p{
+    color: white;
+}
 span{
     font-size: 30px;
-    color:beige;
+    color:yellow;
 }
