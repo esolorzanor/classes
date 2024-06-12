@@ -1,0 +1,13 @@
+
+/* Explicación: Este método utiliza palabras clave en inglés para definir colores. Es fácil de usar y entender, pero la paleta de colores es limitada.
+
+Uso práctico: Ideal para colores básicos o cuando se busca legibilidad, como en textos o títulos. */
+
+h1 {
+    color: rojo; /* Rojo */
+  }
+  
+  p {
+    color: azul marino; /* Azul marino */
+  }
+  

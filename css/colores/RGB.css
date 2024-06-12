@@ -1,0 +1,13 @@
+
+/* Explicación: Define el color usando valores numéricos que representan la intensidad de los componentes rojo, verde y azul (de 0 a 255). Ofrece mayor control y precisión que los nombres de colores.
+
+Uso práctico: Útil cuando se necesitan colores específicos o se trabaja con imágenes digitales. */
+
+body {
+    background-color: rgb(255, 128, 0); /* Naranja (rojo: 255, verde: 128, azul: 0) */
+  }
+  
+  a {
+    color: rgb(0, 0, 255); /* Azul (rojo: 0, verde: 0, azul: 255) */
+  }
+  

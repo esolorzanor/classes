@@ -1,0 +1,13 @@
+/* Explicación: Similar al HSL, pero incluye un cuarto valor numérico que representa la opacidad del color (de 0 a 1, donde 0 es transparente y 1 es opaco).
+
+Uso práctico: Permite crear colores semitransparentes con valores HSL, útil para sombras y superposiciones con control de opacidad. */
+
+
+figure {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra negra semitransparente (desplazamiento horizontal: 0, desplazamiento vertical: 0, tamaño de la sombra: 10px, color: rgba(0, 0, 0, 0.2)) */
+  }
+  
+  footer {
+    background-color: hsla(200, 50%, 60%, 0.8); /* Cian semitransparente (tono: 200°, saturación: 50%, luminosidad: 60%, opacidad: 0.8) */
+  }
+  

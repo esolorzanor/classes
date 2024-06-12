@@ -1,0 +1,13 @@
+
+/* Explicación: Define el color utilizando el tono (hue), la saturación (saturation) y la luminosidad (lightness). Ofrece un enfoque más intuitivo para algunos usuarios.
+
+Uso práctico: Útil para ajustar la intensidad y el brillo de los colores, o para crear variaciones de un mismo color. */
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5); /* Negro semitransparente (rojo: 0, verde: 0, azul: 0, opacidad: 0.5) */
+  }
+  
+  img {
+    border: 5px solid rgba(255, 255, 255, 0.2); /* Borde blanco semitransparente (rojo: 255, verde: 255, azul: 255, opacidad: 0.2) */
+  }
+  

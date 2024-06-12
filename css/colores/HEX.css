@@ -1,0 +1,10 @@
+/* 
+Explicación: Define el color usando un código hexadecimal (# seguido de 6 caracteres que representan los valores de rojo, verde y azul). Es compacto y ampliamente utilizado.
+
+Uso práctico: Útil para compartir colores específicos entre diseñadores y desarrolladores, o cuando se trabaja con código de terceros. */
+
+#logo 
+{
+    color: #FF0000; /* Rojo (#FF para rojo, #00 para verde, #00 para azul */
+  
+}

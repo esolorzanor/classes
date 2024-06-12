@@ -1,0 +1,14 @@
+
+/* Explicación: Define el color utilizando el tono (hue), la saturación (saturation) y la luminosidad (lightness). Ofrece un enfoque más intuitivo para algunos usuarios.
+
+Uso práctico: Útil para ajustar la intensidad y el brillo de los colores, o para crear variaciones de un mismo color. */
+
+
+h2 {
+    color: hsl(240, 100%, 50%); /* Rosa (tono: 240°, saturación: 100%, luminosidad: 50%) */
+  }
+  
+  button {
+    background-color: hsl(120, 50%, 70%); /* Verde (tono: 120°, saturación: 50%, luminosidad: 70%) */
+  }
+  
