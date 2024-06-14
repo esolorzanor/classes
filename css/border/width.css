@@ -1,5 +1,17 @@
 .caja {
-    border: 10px solid black; /* Ejemplo: borde negro sólido de 10px */
+    /* Ejemplo: borde negro sólido de 10px */
+    /* Una sola propiedad */
+    
+    /* border: 10px solid black;  */
+    
+    /* propiedades separadas */
+    border-width: 10px;
+    border-style: solid;
+    /* border-color: blue; */
+    border-top-color: red;
+    border-bottom-color: green;
+    border-right-color: yellow;
+    border-left-color: orange;
   }
 
   
