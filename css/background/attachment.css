@@ -1,0 +1,10 @@
+.caja-fija {
+    background-image: url("fondo.jpg");
+    background-attachment: fixed; /* Imagen fija */
+  }
+
+  
+/* Variaciones:
+
+fixed: La imagen se fija en su posición.
+scroll: La imagen se desplaza con la página. */

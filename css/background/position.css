@@ -1,0 +1,11 @@
+
+.caja-posicion {
+    background-image: url("fondo.jpg");
+    background-position: top right; /* Posición superior derecha */
+  }
+  
+/* 
+Variaciones:
+
+Podemos usar palabras clave como top, left, bottom, right, center para definir la posición.
+También podemos usar valores en píxeles para un control más preciso. */

@@ -1,0 +1,5 @@
+.caja-repetir {
+    background-image: url("fondo.jpg");
+    background-repeat: repeat-x; /* Repetir la imagen horizontalmente */
+  }
+  
