@@ -1,4 +1,10 @@
-.caja {
+.caja_ {
     border: 5px solid red; /* Ejemplo: borde rojo sólido de 5px */
   }
 
+  .caja {
+    border-top: 2px dashed blue; /* Borde superior azul discontinuo de 2px */
+    border-right: 3px dotted green; /* Borde derecho verde punteado de 3px */
+    border-bottom: 4px solid purple; /* Borde inferior morado sólido de 4px */
+    border-left: 5px double orange; /* Borde izquierdo naranja doble de 5px */
+  } 
