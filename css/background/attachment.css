@@ -1,5 +1,5 @@
 .caja-fija {
-    background-image: url("fondo.jpg");
+    background-image: url("fondo-s.jpg");
     background-attachment: fixed; /* Imagen fija */
   }
 

@@ -1,4 +1,14 @@
 .caja-imagen {
-    background-image: url("fondo.jpg"); /* Ruta de la imagen */
+    background-image: url("fondo-s.jpg"); /* Ruta de la imagen */
+    /* background-size: 40px; */
+    background-position: center;
   }
   
+  
+  
+/* Variaciones:
+
+Podemos ajustar el tamaño y repetición de la imagen:
+background-size: cover;: La imagen cubrirá todo el elemento, manteniendo su proporción.
+background-repeat: repeat-y;: La imagen se repetirá verticalmente.
+background-position: center;: La imagen se posicionará en el centro del elemento. */
