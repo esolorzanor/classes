@@ -1,4 +1,10 @@
 .caja {
-    background-color: #F0F0F0; /* Color gris claro */
+    background-color:#F0F0F0; 
+    /* background-color: rgba(240, 240, 240, 0.4);  */
   }
   
+
+  /* Podemos usar nombres de colores ("red", "blue", "green") o códigos hexadecimales 
+  ("#FF0000", "#0000FF", "#008000").
+  También podemos ajustar la transparencia con valores entre 0 (completamente opaco) y 
+  1 (completamente transparente): background-color: rgba(255, 0, 0, 0.5);. */
