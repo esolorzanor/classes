@@ -1,0 +1,8 @@
+header {
+    margin: 20px; /* Margen de 20px para todos los lados */
+}
+
+p {
+    margin: 10px 15px 5px 20px; /* Márgenes individuales para cada lado */
+    /* margin: -10px 0 0 0;  */
+}

@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif; /* Familia de fuentes para el cuerpo del texto */
+    font-size: 16px; /* Tamaño de fuente para el cuerpo del texto */
+}
+
+h1 {
+    font-family: "Times New Roman", serif; /* Familia de fuentes para títulos */
+    font-size: 24px; /* Tamaño de fuente para títulos */
+    font-weight: bold; /* Peso de fuente para títulos (negrita) */
+}
+
+p {
+    font-family: Verdana, sans-serif; /* Familia de fuentes para párrafos */
+    font-size: 14px; /* Tamaño de fuente para párrafos */
+    line-height: 1.5; /* Interlineado para párrafos */
+}
+
+.resaltar {
+    font-family: monospace; /* Familia de fuente monoespaciada para el texto resaltado */
+    font-size: 12px; /* Tamaño de fuente para el texto resaltado */
+    font-style: italic; /* Estilo de fuente para el texto resaltado (cursiva) */
+    color: red; /* Color de fuente para el texto resaltado */
+}

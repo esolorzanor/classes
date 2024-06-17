@@ -1,0 +1,11 @@
+.parrafo1 {
+    padding: 10px; /* Padding de 10px en todos los lados */
+}
+
+.parrafo2 {
+    padding: 20px 30px; /* Padding de 20px arriba y abajo, 30px a izquierda y derecha */
+}
+
+.parrafo3 {
+    padding: 1%; /* Padding de 1% en todos los lados (relativo al tamaño del elemento) */
+}
