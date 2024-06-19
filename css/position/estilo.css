@@ -1,6 +1,6 @@
 .contenedor {
-    width: 500px;
-    height: 200px;
+    width: 260px;
+    height: 260px;
     border: 1px solid #ccc;
     position: relative; /* Posicionamiento relativo del contenedor */
   }
@@ -32,3 +32,12 @@
     left: 20px; /* Desplazamiento horizontal de 20px */
   }
   
+  .caja4 {
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    position: absolute; /* Posicionamiento absoluto para la caja 3 */
+    bottom: 20px; /* Desplazamiento vertical hacia abajo */
+    right: 20px; /* Desplazamiento horizontal de 20px */
+  }
