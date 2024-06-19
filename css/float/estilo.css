@@ -1,0 +1,29 @@
+.contenedor {
+    width: 500px;
+    height: 200px;
+    border: 1px solid #ccc;
+  }
+  
+  .caja1 {
+    width: 100px;
+    height: 100px;
+    background-color: #f00;
+    float: left; /* Flota la caja 1 a la izquierda */
+    margin: 10px;
+  }
+  
+  .caja2 {
+    width: 100px;
+    height: 100px;
+    background-color: #0f0;
+    float: right; /* Flota la caja 2 a la derecha */
+    margin: 10px;
+  }
+  
+  .caja3 {
+    width: 100px;
+    height: 100px;
+    background-color: #00f;
+    clear: both; /* Limpia el flotado para que el contenido siguiente no fluya alrededor */
+  }
+  

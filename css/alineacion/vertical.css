@@ -1,0 +1,17 @@
+.contenedor {
+    display: flex;
+    flex-direction: column; /* Alinear elementos en columna */
+    align-items: center; /* Alinear elementos horizontalmente al centro */
+}
+
+.texto-arriba {
+    align-self: flex-start; /* Alinear este elemento al inicio */
+}
+
+.imagen-centro {
+    align-self: center; /* Alinear este elemento al centro */
+}
+
+.texto-abajo {
+    align-self: flex-end; /* Alinear este elemento al final */
+}
