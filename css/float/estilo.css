@@ -1,6 +1,6 @@
 .contenedor {
     width: 500px;
-    height: 200px;
+    height: 230px;
     border: 1px solid #ccc;
   }
   
@@ -24,6 +24,7 @@
     width: 100px;
     height: 100px;
     background-color: #00f;
+    margin: 10px;
     clear: both; /* Limpia el flotado para que el contenido siguiente no fluya alrededor */
   }
   
