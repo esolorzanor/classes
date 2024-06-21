@@ -5,9 +5,15 @@ Uso práctico: Permite crear colores semitransparentes con valores HSL, útil pa
 
 figure {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra negra semitransparente (desplazamiento horizontal: 0, desplazamiento vertical: 0, tamaño de la sombra: 10px, color: rgba(0, 0, 0, 0.2)) */
+    text-align: center;
+    padding: 10px;
+    width: 200px;
   }
   
   footer {
-    background-color: hsla(200, 50%, 60%, 0.8); /* Cian semitransparente (tono: 200°, saturación: 50%, luminosidad: 60%, opacidad: 0.8) */
+    background-color: hsla(200, 54%, 28%, 0.8); /* Cian semitransparente (tono: 200°, saturación: 50%, luminosidad: 60%, opacidad: 0.8) */
+    color: hsla(0, 0%, 100%, 0.9);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
   }
   

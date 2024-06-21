@@ -5,9 +5,14 @@ Uso práctico: Útil para ajustar la intensidad y el brillo de los colores, o pa
 
 nav {
     background-color: rgba(0, 0, 0, 0.5); /* Negro semitransparente (rojo: 0, verde: 0, azul: 0, opacidad: 0.5) */
+    text-align: center;
+
   }
-  
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}  
   img {
-    border: 5px solid rgba(255, 255, 255, 0.2); /* Borde blanco semitransparente (rojo: 255, verde: 255, azul: 255, opacidad: 0.2) */
+    border: 5px solid rgba(0, 0, 0, 0.277); /* Borde blanco semitransparente (rojo: 255, verde: 255, azul: 255, opacidad: 0.2) */
   }
   

@@ -5,10 +5,10 @@ Uso práctico: Útil para ajustar la intensidad y el brillo de los colores, o pa
 
 
 h2 {
-    color: hsl(240, 100%, 50%); /* Rosa (tono: 240°, saturación: 100%, luminosidad: 50%) */
+    color: hsl(27, 100%, 50%); /* Rosa (tono: 240°, saturación: 100%, luminosidad: 50%) */
   }
   
   button {
-    background-color: hsl(120, 50%, 70%); /* Verde (tono: 120°, saturación: 50%, luminosidad: 70%) */
+    background-color: hsl(217, 70%, 80%); /* Verde (tono: 120°, saturación: 50%, luminosidad: 70%) */
   }
   
