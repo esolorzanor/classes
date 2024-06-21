@@ -5,11 +5,14 @@
   }
   
   /* Selecciona todos los elementos con la clase "parrafo" */
-  .parrafo {
-    color: gray;
-    margin: 10px 0;
-  }
-  div{
-    text-align: right;
-  }
+.parrafo {
+  color: gray;
+  margin: 10px 0;
+ }
+
+ .espan p{
+  color: red;
+  text-align: center;
+ }
+
   
