@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JS Tipos de dato</title>
+</head>
+<body>
+    <script>
+        // 1.- Números
+        // Declarar una variable numérica:
+        let edad = 30;
+
+        // Realizar operaciones matemáticas:
+        let suma = 10 + 5;
+        let resta = 20 - 3;
+        let multiplicacion = 4 * 6;
+        let division = 12 / 2;
+
+        // Usar números en condiciones:
+        if (edad >= 18) {
+            console.log("Eres mayor de edad");
+        } else {
+            console.log("Eres menor de edad");
+        }
+
+        // 2. Cadenas de texto:
+        // Declarar una variable de cadena de texto:
+        let nombre = "Juan Pérez";
+
+        // Concatenar cadenas de texto:
+        let saludo = "Hola " + nombre + "!";
+        console.log(saludo); // Salida: Hola Juan Pérez!
+
+        // Acceder a caracteres individuales de una cadena:
+        let primerLetra = nombre[0]; // primerLetra = "J"
+        let ultimaLetra = nombre[nombre.length - 1]; // ultimaLetra = "z"
+
+        // Usar cadenas de texto en comparaciones:
+        if (nombre === "Juan Pérez") {
+        console.log("El nombre es Juan Pérez");
+        } else {
+        console.log("El nombre no es Juan Pérez");
+        }
+
+        // 3. Booleanos:
+        // Declarar variables booleanas:
+        let esVerdad = true;
+        let esFalso = false;
+
+        // Usar valores booleanos en condiciones:
+        if (esVerdad) {
+        console.log("La condición es verdadera");
+        } else {
+        console.log("La condición es falsa");
+        }
+
+        // Operaciones lógicas con valores booleanos:
+        let resultado = esVerdad && esFalso; // resultado = false (AND requiere que ambas condiciones sean verdaderas)
+        resultado = esVerdad || esFalso; // resultado = true (OR es cierto si al menos una condición es verdadera)
+
+        // 4. Arreglos:
+        // Declarar un arreglo:
+        let frutas = ["manzana", "naranja", "banana"];
+
+        // Acceder a elementos del arreglo:
+        let primeraFruta = frutas[0]; // primeraFruta = "manzana"
+        let ultimaFruta = frutas[frutas.length - 1]; // ultimaFruta = "banana"
+
+        // Recorrer un arreglo:
+        for (let i = 0; i < frutas.length; i++) {
+        console.log(frutas[i]);
+        }
+
+        // 5. Objetos:
+        // Declarar un objeto:
+        let persona = {
+        nombre: "Pedro",
+        edad: 35,
+        ocupacion: "Desarrollador"
+        };
+
+        // Acceder a propiedades de un objeto:
+        
+        let nombrePersona = persona.nombre; // nombrePersona = "Pedro"
+        let edadPersona = persona["edad"]; // edadPersona = 35
+
+        // Agregar propiedades a un objeto:
+        persona.ciudad = "Lima";
+
+        // Recorrer las propiedades de un objeto:
+        for (let propiedad in persona) {
+        console.log(propiedad + ": " + persona[propiedad]);
+        }
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
