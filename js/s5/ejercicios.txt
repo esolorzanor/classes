@@ -1,0 +1,72 @@
+Ejercicios por cada tipo de dato en JavaScript:
+
+1. Números:
+
+Ejercicio 1:
+
+Crear una calculadora básica que permita al usuario ingresar dos números y realizar las operaciones básicas de suma, resta, multiplicación y división. Mostrar los resultados en pantalla.
+
+Ejercicio 2:
+
+Calcular el perímetro y área de un rectángulo y un círculo. Solicitar al usuario que ingrese las dimensiones del rectángulo (base y altura) y el radio del círculo.
+
+Ejercicio 3:
+
+Convertir una temperatura de grados Celsius a Fahrenheit y viceversa. El usuario debe ingresar la temperatura y la escala de origen (Celsius o Fahrenheit).
+
+2. Cadenas de texto:
+
+Ejercicio 1:
+
+Crear un programa que solicite al usuario su nombre completo y lo salude con un mensaje personalizado. El mensaje debe incluir el nombre completo del usuario.
+
+Ejercicio 2:
+
+Escribir un programa que elimine los espacios en blanco al inicio y final de una cadena de texto ingresada por el usuario.
+
+Ejercicio 3:
+
+Validar si una cadena de texto ingresada por el usuario es un palíndromo. Un palíndromo es una palabra o frase que se lee igual de adelante hacia atrás y viceversa.
+
+3. Booleanos:
+
+Ejercicio 1:
+
+Crear un juego de adivinanzas donde el usuario debe adivinar un número secreto. El programa debe dar pistas al usuario indicando si su suposición es mayor, menor o igual al número secreto.
+
+Ejercicio 2:
+
+Escribir un programa que determine si un año ingresado por el usuario es bisiesto o no. Un año es bisiesto si es divisible por 4, pero no por 100, o si es divisible por 400.
+
+Ejercicio 3:
+
+Simular el lanzamiento de una moneda. El programa debe mostrar al usuario si el resultado es cara o cruz.
+
+4. Arreglos:
+
+Ejercicio 1:
+
+Crear un programa que almacene los nombres de 5 estudiantes en un arreglo. Luego, mostrar en pantalla la lista de estudiantes ordenada alfabéticamente.
+
+Ejercicio 2:
+
+Calcular el promedio de las notas de un grupo de estudiantes. Las notas deben almacenarse en un arreglo y el programa debe mostrar el promedio final.
+
+Ejercicio 3:
+
+Crear un juego de memoria simple donde el usuario debe recordar la posición de algunas cartas ocultas. El programa debe mostrar las cartas al usuario por un breve período de tiempo y luego pedirle que identifique las posiciones correctas.
+
+5. Objetos:
+
+Ejercicio 1:
+
+Crear un programa que almacene la información de un libro en un objeto. La información debe incluir el título, autor, ISBN, género y número de páginas. Luego, mostrar en pantalla un resumen del libro con la información almacenada.
+
+Ejercicio 2:
+
+Crear una agenda telefónica que permita al usuario agregar, eliminar y buscar contactos. Cada contacto debe almacenarse como un objeto con nombre, teléfono, dirección y correo electrónico.
+
+Ejercicio 3:
+
+Simular una tienda online. El programa debe permitir al usuario agregar productos a un carrito de compras, calcular el total de la compra y aplicar descuentos si aplicables. Los productos deben almacenarse en objetos con nombre, precio, descripción y cantidad disponible.
+
