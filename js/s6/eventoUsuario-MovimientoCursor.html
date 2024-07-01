@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Evento de Usuario - movimiento de cursor</title>
+</head>
+<body>
+    <p id="parrafo">Este es un párrafo de ejemplo.</p>
+    <script>
+        const parrafo = document.getElementById("parrafo");
+
+        parrafo.addEventListener("mouseover", function() {
+        parrafo.style.backgroundColor = "lightblue";
+        });
+
+        parrafo.addEventListener("mouseout", function() {
+        parrafo.style.backgroundColor = "gray";
+        });
+
+    </script>
+</body>
+</html>

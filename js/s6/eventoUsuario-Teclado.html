@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Evento de usuario - Teclado</title>
+</head>
+<body>
+    <p>Escribe una palabra que empiece por H</p><br>
+    <input type="text" id="campoTexto" onkeydown="presionarTecla(event)">
+    <script>
+        function presionarTecla(event) {
+        if (event.key === "H") {
+            alert("¡Presionaste H!");
+        }
+        }
+    </script>
+</body>
+</html>

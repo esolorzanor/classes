@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Evento DOM - Cambio de tamaño de la ventana</title>
+</head>
+<body>
+    <p>Hola, bienvenidos</p>
+    <script>
+        window.addEventListener("resize", function() {
+        console.log("Ancho de la ventana:", window.innerWidth);
+        console.log("Altura de la ventana:", window.innerHeight);
+        });
+    </script>
+</body>
+</html>
