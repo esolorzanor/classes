@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Ejercicio: Agregar un elemento a una lista al presionar Enter
+    • Crear una lista HTML con un campo de entrada de texto.
+    • Agregar CSS para el estilo de la lista y el campo de entrada.
+    • Implementar JavaScript para agregar elementos a la lista. -->
+
+    <title>Agregar elementos a lista después de un ENTER</title>
+</head>
+<body>
+    <ul id="lista">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <input type="text" id="valorElemento" onkeydown="agregaElemento(event)">
+    <script>
+        function agregaElemento(event){
+            // Determinar si se presionó la tecla enter
+            if (event.key === "Enter") {
+            // Obtener el valor del nuevo elemento de la lista
+                var valorElemento = document.getElementById("valorElemento").value;
+            // Crear un elemento para lista
+                var elemento = document.createElement("li");
+            // Asignar valor al elemento creado
+                elemento.appendChild(document.createTextNode(valorElemento));
+            // Agregar el elemento creado a la lista
+                var lista = document.getElementById("lista");
+                lista.appendChild(elemento);  
+            // Limpiar la caja de texto
+                document.getElementById("valorElemento").value = "";           
+            }
+        }
+    </script>
+</body>
+</html>

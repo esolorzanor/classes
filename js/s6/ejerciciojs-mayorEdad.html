@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Validación de edad para ingresar a un sitio web
+    Crear un formulario HTML que solicite al usuario ingresar 
+    su edad. Utilizar JavaScript para verificar si la edad 
+    ingresada es mayor o igual a 18. Si la edad es válida, 
+    mostrar un mensaje de bienvenida; de lo contrario, mostrar 
+    un mensaje indicando que el acceso no está permitido. -->
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <p>Ingrese su edad:</p>
+    <input type="text" id="edad" onkeydown="validaEdad(event)">
+    <script>
+        function validaEdad(event){
+            if (event.key === "Enter") {
+                var edad = document.getElementById("edad").value;
+                /*Ejercicio: Validar que se ingresó un numero*/
+                // if (typeof(parseInt(edad)) == number) { //Pendiente o ejercicio 
+                if (edad >= 0) {
+                    if (edad >= 18) {
+                        alert("Bienvenido a Certus.");
+                    } else {
+                        alert("Acceso no permitido, debe ser mayor de edad.");
+                    }                    
+                } else {
+                    alert("La edad debe ser un número.");
+                }
+                document.getElementById("edad").value = "";
+            }
+        }
+    </script>
+</body>
+</html>
