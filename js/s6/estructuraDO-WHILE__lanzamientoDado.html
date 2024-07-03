@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lanzamiento de dado</title>
+</head>
+<body>
+  <h1>Lanzamiento de dado</h1>
+  <button onclick="lanzarDado()">Lanzar dado</button>
+  <p id="resultado"></p>
+
+  <script>
+    function lanzarDado() {
+      // Variable para almacenar el resultado del lanzamiento
+      let resultadoDado;
+
+    //   Bucle DO WHILE para generar un número aleatorio entre 1 y 6
+      do {
+        resultadoDado = Math.floor(Math.random() * 6) + 1;
+      } while (resultadoDado === 1); // Se repite si se obtiene un 1
+
+      // Mostrar el resultado en el párrafo con ID "resultado"
+      document.getElementById("resultado").textContent = `Has sacado un ${resultadoDado}`;
+    }
+  </script>
+</body>
+</html>
