@@ -1,6 +1,6 @@
 // Verificar si un usuario es mayor de edad:
 
-let edad = 18;
+let edad = 10;
 
 if (edad >= 18) {
   console.log("Eres mayor de edad");
