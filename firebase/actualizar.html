@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo de actualizar documento</title>
+</head>
+<body>
+<script type="module">
+// Paso 1: Importar las funciones necesarias de Firebase
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.2/firebase-app.js';
+import { getFirestore, collection, doc, updateDoc  } from 'https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore.js';
+
+// Paso 2: Configurar Firebase (reemplaza con tus propias credenciales)
+const firebaseConfig = {
+        apiKey: "",
+        authDomain: "",
+        projectId: "",
+        storageBucket: "",
+        messagingSenderId: "",
+        appId: "",
+        measurementId: ""
+};
+
+// Paso 3: Inicializar Firebase
+const app = initializeApp(firebaseConfig);
+
+// Paso 4: Obtener una instancia de Firestore
+const db = getFirestore(app);
+
+// Paso 5: Función para actualizar un alumno
+async function actualizarAlumno(id, datosActualizados) {
+  try {
+    const alumnoRef = doc(db, "Alumnos", id);
+    await updateDoc(alumnoRef, datosActualizados);
+    console.log("Alumno actualizado con ID: ", id);
+  } catch (error) {
+    console.error("Error al actualizar alumno: ", error);
+    throw error;
+  }
+}
+
+// Paso 6: Ejemplo de uso
+var id = "12345678";
+actualizarAlumno(id, { nombre: "Luis", apellido: "Duck" })
+  .then((id) => console.log("Alumno actualizado exitosamente"))
+  .catch((error) => console.error("Error:", error));    
+</script>
+</body>
+</html>
