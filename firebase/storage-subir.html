@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir Archivo a Firebase Storage</title>
+    <link rel="stylesheet" href="storage.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Subir Archivo a Firebase Storage</h1>
+        <input type="file" id="inputArchivo">
+        <div id="mensajeEstado"></div>
+    </div>
+
+    <script type="module">
+    // 1. Importar Firebase y inicializar la aplicación
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-app.js";
+    import { getStorage, ref, uploadBytes, getDownloadURL } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-storage.js";
+
+    const firebaseConfig = {
+        apiKey: "",
+        authDomain: "",
+        projectId: "",
+        storageBucket: "",
+        messagingSenderId: "",
+        appId: "",
+        measurementId: ""
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const storage = getStorage(app);
+
+    // 2. Función para subir archivo
+    async function subirArchivo(archivo) {
+        try {
+            // Crear una referencia única para el archivo
+            const nombreArchivo = `${Date.now()}-${archivo.name}`;
+            const storageRef = ref(storage, 'archivos/' + nombreArchivo);
+
+            // Subir el archivo
+            const snapshot = await uploadBytes(storageRef, archivo);
+            console.log('Archivo subido con éxito');
+
+            // Obtener la URL de descarga
+            const downloadURL = await getDownloadURL(snapshot.ref);
+            console.log('URL de descarga:', downloadURL);
+
+            return downloadURL;
+        } catch (error) {
+            console.error('Error al subir el archivo:', error);
+            throw error;
+        }
+    }
+
+    // 3. Ejemplo de uso
+    document.getElementById('inputArchivo').addEventListener('change', async (e) => {
+    const archivo = e.target.files[0];
+    if (archivo) {
+        try {
+        const url = await subirArchivo(archivo);
+        console.log('Archivo subido. URL:', url);
+        } catch (error) {
+        console.error('Error en la subida:', error);
+        }
+    }
+    });
+    </script>
+</body>
+</html>
